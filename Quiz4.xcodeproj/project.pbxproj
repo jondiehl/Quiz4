@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216024A818A4D74100FC6459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216024A718A4D74100FC6459 /* UIKit.framework */; };
+		216024AA18A4D74100FC6459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216024A918A4D74100FC6459 /* Foundation.framework */; };
+		216024AC18A4D74100FC6459 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216024AB18A4D74100FC6459 /* CoreGraphics.framework */; };
+		216024B218A4D74100FC6459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 216024B018A4D74100FC6459 /* InfoPlist.strings */; };
+		216024B418A4D74100FC6459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216024B318A4D74100FC6459 /* main.m */; };
+		216024B818A4D74100FC6459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216024B718A4D74100FC6459 /* AppDelegate.m */; };
+		216024C018A4D74100FC6459 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216024BF18A4D74100FC6459 /* SenTestingKit.framework */; };
+		216024C118A4D74100FC6459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216024A718A4D74100FC6459 /* UIKit.framework */; };
+		216024C218A4D74100FC6459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216024A918A4D74100FC6459 /* Foundation.framework */; };
+		216024CA18A4D74100FC6459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 216024C818A4D74100FC6459 /* InfoPlist.strings */; };
+		216024CD18A4D74100FC6459 /* Quiz4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216024CC18A4D74100FC6459 /* Quiz4Tests.m */; };
+		216024DC18A4D80500FC6459 /* Q4View.m in Sources */ = {isa = PBXBuildFile; fileRef = 216024D718A4D80500FC6459 /* Q4View.m */; };
+		216024DD18A4D80500FC6459 /* Q4LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216024D918A4D80500FC6459 /* Q4LeftController.m */; };
+		216024E118A4D97700FC6459 /* Q4RightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216024E018A4D97700FC6459 /* Q4RightController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216024C318A4D74100FC6459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2160249A18A4D74100FC6459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216024A218A4D74100FC6459;
+			remoteInfo = Quiz4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		216024A318A4D74100FC6459 /* Quiz4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216024A718A4D74100FC6459 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		216024A918A4D74100FC6459 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		216024AB18A4D74100FC6459 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		216024AF18A4D74100FC6459 /* Quiz4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz4-Info.plist"; sourceTree = "<group>"; };
+		216024B118A4D74100FC6459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		216024B318A4D74100FC6459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		216024B518A4D74100FC6459 /* Quiz4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz4-Prefix.pch"; sourceTree = "<group>"; };
+		216024B618A4D74100FC6459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		216024B718A4D74100FC6459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		216024BE18A4D74100FC6459 /* Quiz4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quiz4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		216024BF18A4D74100FC6459 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		216024C718A4D74100FC6459 /* Quiz4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz4Tests-Info.plist"; sourceTree = "<group>"; };
+		216024C918A4D74100FC6459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		216024CB18A4D74100FC6459 /* Quiz4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz4Tests.h; sourceTree = "<group>"; };
+		216024CC18A4D74100FC6459 /* Quiz4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz4Tests.m; sourceTree = "<group>"; };
+		216024D618A4D7F500FC6459 /* Q4View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q4View.h; path = "../../Quiz4-master/Q4View.h"; sourceTree = "<group>"; };
+		216024D718A4D80500FC6459 /* Q4View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Q4View.m; path = "../../Quiz4-master/Q4View.m"; sourceTree = "<group>"; };
+		216024D818A4D80500FC6459 /* Q4LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q4LeftController.h; path = "../../Quiz4-master/Q4LeftController.h"; sourceTree = "<group>"; };
+		216024D918A4D80500FC6459 /* Q4LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Q4LeftController.m; path = "../../Quiz4-master/Q4LeftController.m"; sourceTree = "<group>"; };
+		216024DF18A4D97700FC6459 /* Q4RightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q4RightController.h; sourceTree = "<group>"; };
+		216024E018A4D97700FC6459 /* Q4RightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q4RightController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216024A018A4D74100FC6459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216024A818A4D74100FC6459 /* UIKit.framework in Frameworks */,
+				216024AA18A4D74100FC6459 /* Foundation.framework in Frameworks */,
+				216024AC18A4D74100FC6459 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216024BA18A4D74100FC6459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216024C018A4D74100FC6459 /* SenTestingKit.framework in Frameworks */,
+				216024C118A4D74100FC6459 /* UIKit.framework in Frameworks */,
+				216024C218A4D74100FC6459 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2160249818A4D74100FC6459 = {
+			isa = PBXGroup;
+			children = (
+				216024AD18A4D74100FC6459 /* Quiz4 */,
+				216024C518A4D74100FC6459 /* Quiz4Tests */,
+				216024A618A4D74100FC6459 /* Frameworks */,
+				216024A418A4D74100FC6459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		216024A418A4D74100FC6459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216024A318A4D74100FC6459 /* Quiz4.app */,
+				216024BE18A4D74100FC6459 /* Quiz4Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216024A618A4D74100FC6459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216024A718A4D74100FC6459 /* UIKit.framework */,
+				216024A918A4D74100FC6459 /* Foundation.framework */,
+				216024AB18A4D74100FC6459 /* CoreGraphics.framework */,
+				216024BF18A4D74100FC6459 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		216024AD18A4D74100FC6459 /* Quiz4 */ = {
+			isa = PBXGroup;
+			children = (
+				216024B618A4D74100FC6459 /* AppDelegate.h */,
+				216024B718A4D74100FC6459 /* AppDelegate.m */,
+				216024D618A4D7F500FC6459 /* Q4View.h */,
+				216024D718A4D80500FC6459 /* Q4View.m */,
+				216024D818A4D80500FC6459 /* Q4LeftController.h */,
+				216024D918A4D80500FC6459 /* Q4LeftController.m */,
+				216024DF18A4D97700FC6459 /* Q4RightController.h */,
+				216024E018A4D97700FC6459 /* Q4RightController.m */,
+				216024AE18A4D74100FC6459 /* Supporting Files */,
+			);
+			path = Quiz4;
+			sourceTree = "<group>";
+		};
+		216024AE18A4D74100FC6459 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216024AF18A4D74100FC6459 /* Quiz4-Info.plist */,
+				216024B018A4D74100FC6459 /* InfoPlist.strings */,
+				216024B318A4D74100FC6459 /* main.m */,
+				216024B518A4D74100FC6459 /* Quiz4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216024C518A4D74100FC6459 /* Quiz4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				216024CB18A4D74100FC6459 /* Quiz4Tests.h */,
+				216024CC18A4D74100FC6459 /* Quiz4Tests.m */,
+				216024C618A4D74100FC6459 /* Supporting Files */,
+			);
+			path = Quiz4Tests;
+			sourceTree = "<group>";
+		};
+		216024C618A4D74100FC6459 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216024C718A4D74100FC6459 /* Quiz4Tests-Info.plist */,
+				216024C818A4D74100FC6459 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216024A218A4D74100FC6459 /* Quiz4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216024D018A4D74100FC6459 /* Build configuration list for PBXNativeTarget "Quiz4" */;
+			buildPhases = (
+				2160249F18A4D74100FC6459 /* Sources */,
+				216024A018A4D74100FC6459 /* Frameworks */,
+				216024A118A4D74100FC6459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiz4;
+			productName = Quiz4;
+			productReference = 216024A318A4D74100FC6459 /* Quiz4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		216024BD18A4D74100FC6459 /* Quiz4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216024D318A4D74100FC6459 /* Build configuration list for PBXNativeTarget "Quiz4Tests" */;
+			buildPhases = (
+				216024B918A4D74100FC6459 /* Sources */,
+				216024BA18A4D74100FC6459 /* Frameworks */,
+				216024BB18A4D74100FC6459 /* Resources */,
+				216024BC18A4D74100FC6459 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				216024C418A4D74100FC6459 /* PBXTargetDependency */,
+			);
+			name = Quiz4Tests;
+			productName = Quiz4Tests;
+			productReference = 216024BE18A4D74100FC6459 /* Quiz4Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2160249A18A4D74100FC6459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jon Diehl";
+			};
+			buildConfigurationList = 2160249D18A4D74100FC6459 /* Build configuration list for PBXProject "Quiz4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2160249818A4D74100FC6459;
+			productRefGroup = 216024A418A4D74100FC6459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216024A218A4D74100FC6459 /* Quiz4 */,
+				216024BD18A4D74100FC6459 /* Quiz4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216024A118A4D74100FC6459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216024B218A4D74100FC6459 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216024BB18A4D74100FC6459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216024CA18A4D74100FC6459 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		216024BC18A4D74100FC6459 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2160249F18A4D74100FC6459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216024B418A4D74100FC6459 /* main.m in Sources */,
+				216024B818A4D74100FC6459 /* AppDelegate.m in Sources */,
+				216024DC18A4D80500FC6459 /* Q4View.m in Sources */,
+				216024DD18A4D80500FC6459 /* Q4LeftController.m in Sources */,
+				216024E118A4D97700FC6459 /* Q4RightController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216024B918A4D74100FC6459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216024CD18A4D74100FC6459 /* Quiz4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		216024C418A4D74100FC6459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216024A218A4D74100FC6459 /* Quiz4 */;
+			targetProxy = 216024C318A4D74100FC6459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		216024B018A4D74100FC6459 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216024B118A4D74100FC6459 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		216024C818A4D74100FC6459 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216024C918A4D74100FC6459 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216024CE18A4D74100FC6459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		216024CF18A4D74100FC6459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216024D118A4D74100FC6459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz4/Quiz4-Prefix.pch";
+				INFOPLIST_FILE = "Quiz4/Quiz4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		216024D218A4D74100FC6459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz4/Quiz4-Prefix.pch";
+				INFOPLIST_FILE = "Quiz4/Quiz4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		216024D418A4D74100FC6459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quiz4.app/Quiz4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz4/Quiz4-Prefix.pch";
+				INFOPLIST_FILE = "Quiz4Tests/Quiz4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		216024D518A4D74100FC6459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quiz4.app/Quiz4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz4/Quiz4-Prefix.pch";
+				INFOPLIST_FILE = "Quiz4Tests/Quiz4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2160249D18A4D74100FC6459 /* Build configuration list for PBXProject "Quiz4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216024CE18A4D74100FC6459 /* Debug */,
+				216024CF18A4D74100FC6459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216024D018A4D74100FC6459 /* Build configuration list for PBXNativeTarget "Quiz4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216024D118A4D74100FC6459 /* Debug */,
+				216024D218A4D74100FC6459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		216024D318A4D74100FC6459 /* Build configuration list for PBXNativeTarget "Quiz4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216024D418A4D74100FC6459 /* Debug */,
+				216024D518A4D74100FC6459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2160249A18A4D74100FC6459 /* Project object */;
+}
